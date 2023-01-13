@@ -34,7 +34,7 @@ int main(){
         cout << "input > ";
 		getline(cin, input);
         if(input == "") continue; // ignore empty input
-		string *alt = split(input,' '); // the first element is the size of the array
+		string *alt = split(input); // the first element is the size of the array, split(<string>,<delimiter>)
         int arr_size = stoi(alt[0]);
         for(int i=1;i<arr_size;i++) cout << i << ": " << alt[i] << endl;
     }
