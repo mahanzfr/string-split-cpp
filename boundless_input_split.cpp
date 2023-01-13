@@ -28,7 +28,7 @@ string *split(string str,char delim = ' '){
     return fin;
 }
 
-int main(){
+int main(){ // just fucking around with c++, not a really practical code
     string input;
     while(1){
         cout << "input > ";
